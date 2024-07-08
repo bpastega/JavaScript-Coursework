@@ -42,7 +42,7 @@ else{
   console.log("Mark's BMI is NOT higher than John's BMI");
 }
 
-function calculateBMI(mass, height){
+function calculateBMI(mass, height){ //https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Function
   let bmi = (mass/(height*height));
   return bmi;
 }
