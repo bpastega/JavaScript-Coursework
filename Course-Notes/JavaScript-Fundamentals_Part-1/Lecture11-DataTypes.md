@@ -47,4 +47,4 @@ It is very important to consider that JavaScript is executed from top to bottom,
 typeof operator
 ```console.log(y)```
 
-Parei: 11:43
+When we use the typeof operator and execute the following ```console.log(typeof null)``` it will return the type as an object. This is an error, and should be considered when building JavaScript programs
