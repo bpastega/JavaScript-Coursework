@@ -44,7 +44,10 @@ To create a multi line comment, we can use ```/**/```
 
 It is very important to consider that JavaScript is executed from top to bottom, therefore the declaration of a variable needs to precede the usage of it within an operation, for example. 
 
-typeof operator
-```console.log(y)```
+<h2>typeof operator</h2>
 
-When we use the typeof operator and execute the following ```console.log(typeof null)``` it will return the type as an object. This is an error, and should be considered when building JavaScript programs
+```console.log(typeof X)```
+
+When we use this operator, it will return the type of an informed variable. In case this variable hasn't been defined yet, its type will be undefined. 
+
+When we use the typeof operator and execute the following ```console.log(typeof null)``` it will return the type as an object. This is an error, and should be considered when building JavaScript programs that rely on this function.
